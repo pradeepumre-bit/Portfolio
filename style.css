@@ -443,3 +443,42 @@ transform:scale(1.05);
         text-align:center;
     }
 }
+.contact-table{
+    margin:30px auto;
+    border-collapse:collapse;
+}
+
+.contact-table td{
+    padding:15px 10px;
+    font-size:22px;
+}
+
+.contact-table td:first-child{
+    width:280px;
+    text-align:right;
+    font-weight:bold;
+}
+
+.contact-table td:nth-child(2){
+    width:20px;
+    text-align:center;
+}
+
+.contact-table td:last-child{
+    width:500px;
+    text-align:left;
+}
+
+@media (max-width:768px){
+    .contact-table td{
+        display:block;
+        width:100% !important;
+        text-align:center !important;
+        padding:8px 0;
+    }
+
+    .contact-table tr{
+        display:block;
+        margin-bottom:20px;
+    }
+}
